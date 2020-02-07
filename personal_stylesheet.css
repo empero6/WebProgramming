@@ -1,0 +1,66 @@
+table {
+	font-family:arial;
+	border-collapse:collapse;
+	width:100%
+}
+
+td, th {
+	border:1px solid black;
+	text-align:left;
+	padding:8px;
+}
+
+tr:nth-child(even) {
+	background-color: grey;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: -webkit-sticky;
+	position: sticky;
+}
+
+div {
+	display:block;
+	width: 100%;
+	length: 100%
+	max-height: 100%
+	margin: 0;
+	padding: 0;	
+}
+
+li {
+	float: left;
+}
+
+
+li a {
+	display: block;
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(active) {
+	background-color: gray;
+}
+
+active {
+	background-color:black;
+}
+
+body {
+	background-image:url("duck.jpg");	
+	background-position: top right;
+	padding:15px;
+	
+}
+
+
+tab { 
+	position:absolute;
+	left:150px;
+}
