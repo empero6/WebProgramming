@@ -4,6 +4,11 @@ table {
 	width:100%
 }
 
+span {
+	color: red;
+	font-weight: bold;
+}
+
 td, th {
 	border:1px solid black;
 	text-align:left;
@@ -16,7 +21,7 @@ tr:nth-child(even) {
 
 ul {
 	list-style-type: none;
-	margin: 0;
+	margin: 10;
 	padding: 0;
 	overflow: hidden;
 	position: -webkit-sticky;
